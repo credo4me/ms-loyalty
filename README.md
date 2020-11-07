@@ -1,4 +1,19 @@
 
 # ms-loyalty
 
-Example Moysklad Loyalty API written in Go, which can easily be deployed to Heroku.
+Тестовое приложение для работы с Moysklad Loyalty API, написанное на Go (не для релиза).
+
+Основная цель – иметь общую клиентскую базу, но разное состояние бонусного счёта, списание и начисление бонусов в зависимости от торговой точки, на которой выбран покупатель.
+
+# Настройка
+
+Внести изменения в файл main.go
+
+```
+const (
+	// ECounterPartyID – UUID существующего контрагента
+	ECounterPartyID = "ff7e357d-20bc-11eb-0a80-03e30004b971"
+	// ERetailStoreID – UUID существующей торговой точки
+	ERetailStoreID = "87016576-f678-11e9-0a80-048c000a78b1"
+)
+```
