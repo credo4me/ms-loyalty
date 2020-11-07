@@ -1,0 +1,11 @@
+{
+  "name": "Moysklad Loyalty API",
+  "description": "Moysklad Loyalty API Example App",
+  "keywords": [
+    "moysklad",
+    "go",
+    "example"
+  ],
+  "website": "http://github.com/credo4me/ms-loyalty",
+  "repository": "http://github.com/credo4me/ms-loyalty"
+}
